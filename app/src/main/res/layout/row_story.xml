@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/storyImg"
+        android:layout_width="130dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_corner_radius="10dip"
+        app:riv_mutate_background="true"
+        app:riv_tile_mode="repeat" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/uimage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/rose"
+        app:layout_constraintStart_toStartOf="@+id/storyImg"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:padding="4dp" />
+
+    <com.devlomi.circularstatusview.CircularStatusView
+        android:id="@+id/storyCricle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/white_crcle_bg"
+        app:layout_constraintBottom_toBottomOf="@+id/uimage"
+        app:layout_constraintEnd_toEndOf="@+id/uimage"
+        app:layout_constraintStart_toStartOf="@+id/uimage"
+        app:layout_constraintTop_toTopOf="@+id/uimage"
+        app:portion_color="@color/colorRed"
+        app:portion_spacing="5dp"
+        app:portion_width="2dp"
+        app:portions_count="4"/>
+
+
+    <ImageView
+        android:id="@+id/story_type"
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/storyImg"
+        app:layout_constraintTop_toTopOf="@id/storyImg"
+        app:srcCompat="@drawable/youtob" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="Brijesh Yadav"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/storyImg"
+        app:layout_constraintStart_toStartOf="@id/storyImg" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
