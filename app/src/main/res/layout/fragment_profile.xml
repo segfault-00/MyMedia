@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:diagonal="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/profile_cantener"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".fragment.ProfileFragment">
 
 
@@ -81,7 +80,6 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/acme"
                 android:text="Brijesh Yadav"
-                android:textColor="#121010"
                 android:textSize="20sp"
                 diagonal:layout_constraintBottom_toBottomOf="@+id/avatartv"
                 diagonal:layout_constraintEnd_toEndOf="parent"
@@ -147,4 +145,4 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -64,10 +64,10 @@ public class PostDetailsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post_details);
-        actionBar = getSupportActionBar();
-        actionBar.setTitle("Post Details");
-        actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setDisplayShowHomeEnabled(true);
+        //actionBar = getSupportActionBar();
+        //actionBar.setTitle("Post Details");
+        //actionBar.setDisplayHomeAsUpEnabled(true);
+        //actionBar.setDisplayShowHomeEnabled(true);
         postId = getIntent().getStringExtra("pid");
         postBy = getIntent().getStringExtra("pBy");
         recyclerView = findViewById(R.id.recyclecomment);
@@ -114,6 +114,16 @@ public class PostDetailsActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        //******************************
+        image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PostDetailsActivity.this, Zoomimg.class);
+                intent.putExtra("img", uimage);
+                PostDetailsActivity.this.startActivity(intent);
+            }
+        });
+        //*****************************
     }
     //*************************************************************
     @Override

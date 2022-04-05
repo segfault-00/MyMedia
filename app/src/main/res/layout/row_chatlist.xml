@@ -5,8 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@color/white"
-    android:backgroundTint="@color/white"
     app:contentPadding="3dp">
 
     <RelativeLayout
@@ -38,7 +36,6 @@
             android:layout_toEndOf="@id/profileimage"
             android:layout_toRightOf="@id/profileimage"
             android:text="His Name"
-            android:textColor="@color/colorBlack"
             android:textSize="18sp" />
 
         <TextView
@@ -51,7 +48,7 @@
             android:layout_toRightOf="@id/profileimage"
             android:maxLines="2"
             android:text="Last Message"
-            android:textColor="@color/colorBlack" />
+          />
 
         <ImageView
             android:id="@+id/blocking"

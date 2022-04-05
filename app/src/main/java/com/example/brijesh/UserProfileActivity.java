@@ -3,10 +3,10 @@ package com.example.brijesh;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 
@@ -42,10 +42,10 @@ public class UserProfileActivity extends AppCompatActivity {
         binding = ActivityUserProfileBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("User Profile");
-        actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setDisplayShowHomeEnabled(true);
+        //ActionBar actionBar = getSupportActionBar();
+        //actionBar.setTitle("User Profile");
+        //actionBar.setDisplayHomeAsUpEnabled(true);
+        //actionBar.setDisplayShowHomeEnabled(true);
 
 
         Intent intent = getIntent();
@@ -82,7 +82,16 @@ public class UserProfileActivity extends AppCompatActivity {
         //**********************
         loadPosts();
         //********************
-
+        //******************************
+        binding.userDp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(UserProfileActivity.this, Zoomimg.class);
+                intent.putExtra("img", uDp);
+                UserProfileActivity.this.startActivity(intent);
+            }
+        });
+        //*****************************
 
 
 

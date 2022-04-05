@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    app:cardBackgroundColor="@color/colorWhite"
     app:cardCornerRadius="2dp"
     app:cardElevation="2dp"
     app:cardUseCompatPadding="true"
@@ -68,15 +67,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Person NAme"
-                android:textColor="@color/colorBlack"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/emailp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Person Email"
-                android:textColor="@color/colorBlack" />
+                android:text="Person Email" />
 
         </LinearLayout>
 

@@ -71,7 +71,6 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/acme"
         android:text="Brijesh Yadav"
-        android:textColor="#121010"
         android:textSize="20sp"
         diagonal:layout_constraintBottom_toBottomOf="@+id/user_dp"
         diagonal:layout_constraintEnd_toEndOf="parent"

@@ -27,6 +27,7 @@ import com.example.brijesh.PostDetailsActivity;
 import com.example.brijesh.PostLikedByActivity;
 import com.example.brijesh.R;
 import com.example.brijesh.UserProfileActivity;
+import com.example.brijesh.Zoomimg;
 import com.example.brijesh.model.ModelPost;
 import com.example.brijesh.model.NotificationModel;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -213,6 +214,16 @@ public class AdapterPosts extends RecyclerView.Adapter<AdapterPosts.MyHolder> {
             }
         });
         //****************************
+        //******************************
+        holder.image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, Zoomimg.class);
+                intent.putExtra("img", image);
+                context.startActivity(intent);
+            }
+        });
+        //*****************************
 
     }
 

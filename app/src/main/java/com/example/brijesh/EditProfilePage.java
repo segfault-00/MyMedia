@@ -43,6 +43,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
@@ -287,6 +288,7 @@ public class EditProfilePage extends AppCompatActivity {
         View view = LayoutInflater.from(this).inflate(R.layout.dialog_update_password, null);
         final EditText oldpass = view.findViewById(R.id.oldpasslog);
         final EditText newpass = view.findViewById(R.id.newpasslog);
+        final EditText connewpass = view.findViewById(R.id.connewpasslog);
         Button editpass = view.findViewById(R.id.updatepass);
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setView(view);
@@ -297,12 +299,21 @@ public class EditProfilePage extends AppCompatActivity {
             public void onClick(View v) {
                 String oldp = oldpass.getText().toString().trim();
                 String newp = newpass.getText().toString().trim();
+                String connewp = connewpass.getText().toString().trim();
                 if (TextUtils.isEmpty(oldp)) {
                     Toast.makeText(EditProfilePage.this, "Current Password cant be empty", Toast.LENGTH_LONG).show();
                     return;
                 }
                 if (TextUtils.isEmpty(newp)) {
                     Toast.makeText(EditProfilePage.this, "New Password cant be empty", Toast.LENGTH_LONG).show();
+                    return;
+                }
+                if (TextUtils.isEmpty(connewp)) {
+                    Toast.makeText(EditProfilePage.this, "Confirm Password cant be empty", Toast.LENGTH_LONG).show();
+                    return;
+                }
+                if (!newp.equals(connewp)) {
+                    Toast.makeText(EditProfilePage.this, "Enter Same Password", Toast.LENGTH_LONG).show();
                     return;
                 }
                 dialog.dismiss();
@@ -552,7 +563,24 @@ public class EditProfilePage extends AppCompatActivity {
                 pd.dismiss();
                 Toast.makeText(EditProfilePage.this, "Error", Toast.LENGTH_LONG).show();
             }
-        });
+        }).addOnProgressListener(
+                new OnProgressListener<UploadTask.TaskSnapshot>() {
+
+                    // Progress Listener for loading
+                    // percentage on the dialog box
+                    @Override
+                    public void onProgress(
+                            UploadTask.TaskSnapshot taskSnapshot)
+                    {
+                        double progress
+                                = (100.0
+                                * taskSnapshot.getBytesTransferred()
+                                / taskSnapshot.getTotalByteCount());
+                        pd.setMessage(
+                                "Uploaded "
+                                        + (int)progress + "%");
+                    }
+                });
     }
 
 }

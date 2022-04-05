@@ -5,7 +5,6 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-    android:background="@color/white"
 tools:context=".PostDetailsActivity">
 
     <androidx.core.widget.NestedScrollView
@@ -22,7 +21,6 @@ tools:context=".PostDetailsActivity">
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:cardBackgroundColor="@color/colorWhite"
                 app:cardCornerRadius="3dp"
                 app:cardElevation="3dp"
                 app:cardUseCompatPadding="true"
@@ -58,7 +56,6 @@ tools:context=".PostDetailsActivity">
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Name"
-                                android:textColor="@color/colorBlack"
                                 android:textSize="20sp" />
 
                             <TextView
@@ -93,14 +90,12 @@ tools:context=".PostDetailsActivity">
                         android:id="@+id/descriptco"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Description"
-                        android:textColor="@color/colorBlack" />
+                        android:text="Description" />
 
                     <ImageView
                         android:id="@+id/pimagetvco"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@color/colorWhite" />
+                        android:layout_height="wrap_content" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -127,7 +122,6 @@ tools:context=".PostDetailsActivity">
                     </LinearLayout>
 
 
-
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -138,25 +132,25 @@ tools:context=".PostDetailsActivity">
                             android:id="@+id/like"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
                             android:autoLink="all"
-                            android:background="@color/white"
                             android:drawableStart="@drawable/ic_like"
                             android:drawableLeft="@drawable/ic_like"
                             android:padding="5dp"
-                            android:layout_marginLeft="16dp"
-                            android:text="" />
+                            android:text=""
+                            android:background="@null"
+                            tools:ignore="SpeakableTextPresentCheck" />
 
                         <androidx.appcompat.widget.AppCompatButton
                             android:id="@+id/share"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:background="@color/colorWhite"
                             android:drawableStart="@drawable/ic_share"
                             android:drawableLeft="@drawable/ic_share"
                             android:padding="5dp"
-                            android:visibility="gone"
-                            android:text="SHARE" />
+                            android:text="SHARE"
+                            android:visibility="gone" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -200,7 +194,6 @@ tools:context=".PostDetailsActivity">
         android:layout_toStartOf="@id/sendcomment"
         android:layout_toEndOf="@id/commentimge"
         android:layout_weight="1"
-        android:background="@color/colorWhite"
         android:hint="Enter Comment..."
         android:inputType="textCapSentences|textMultiLine"
         android:minHeight="48dp"
@@ -211,7 +204,6 @@ tools:context=".PostDetailsActivity">
         android:layout_width="40dp"
         android:layout_height="48dp"
         android:layout_alignParentRight="true"
-        android:background="@color/colorWhite"
         android:src="@drawable/send_message"
         tools:ignore="SpeakableTextPresentCheck" />
 

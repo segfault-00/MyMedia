@@ -118,6 +118,7 @@ public class ChatActivity extends AppCompatActivity {
                 showImagePicDialog();
             }
         });
+
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -169,6 +170,16 @@ public class ChatActivity extends AppCompatActivity {
             }
         });
         readMessages();
+        //******************************
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChatActivity.this, Zoomimg.class);
+                intent.putExtra("img", image);
+                ChatActivity.this.startActivity(intent);
+            }
+        });
+        //*****************************
     }
 
 

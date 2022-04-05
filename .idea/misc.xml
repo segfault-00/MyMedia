@@ -11,6 +11,7 @@
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/background_color.xml" value="0.1" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/bg_receiver.xml" value="0.1" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/bg_sender.xml" value="0.26614583333333336" />
+        <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/bg_wall.xml" value="0.1655" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/buttonss.xml" value="0.1" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/cricle_bg.xml" value="0.26614583333333336" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/edit.xml" value="0.1" />
@@ -20,10 +21,12 @@
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/ic_add.xml" value="0.1" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/ic_ata.xml" value="0.14479166666666668" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/ic_check.xml" value="0.26614583333333336" />
+        <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/ic_comment.xml" value="0.18" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/ic_commenting.xml" value="0.1" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/ic_edit_white.xml" value="0.26614583333333336" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/ic_email.xml" value="0.1" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/ic_home.xml" value="0.11574074074074074" />
+        <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/ic_iattach.xml" value="0.1655" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/ic_images.xml" value="0.26614583333333336" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/ic_like.xml" value="0.14010416666666667" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/ic_liked.xml" value="0.26614583333333336" />
@@ -37,16 +40,18 @@
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/password.xml" value="0.1" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/send_message.xml" value="0.1648148148148148" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/drawable/white_crcle_bg.xml" value="0.26197916666666665" />
+        <entry key="..\:/APP/Brijesh2/app/src/main/res/font/acme.xml" value="0.1" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/activity_chat.xml" value="0.264" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/activity_edit_profile_page.xml" value="0.25" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/activity_post_details.xml" value="0.4" />
+        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/activity_post_details.xml" value="0.264" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/activity_post_liked_by.xml" value="0.2" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/activity_registration.xml" value="0.264" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/activity_splash_screen.xml" value="0.16" />
-        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/activity_user_profile.xml" value="0.4" />
+        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/activity_user_profile.xml" value="0.2" />
+        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/activity_zoomimg.xml" value="0.25" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/all_post_row.xml" value="0.25" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/cricle_bg.xml" value="1.7142857142857142" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/demo_post.xml" value="0.25" />
@@ -62,16 +67,16 @@
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/fragment_chatlist.xml" value="0.25" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/fragment_home.xml" value="0.41702867072111205" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/fragment_notifi.xml" value="0.25" />
-        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/fragment_notification.xml" value="0.1" />
-        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/fragment_notification.xml" value="0.2" />
+        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/fragment_users.xml" value="0.1" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/friends_for_profile_recycler.xml" value="0.25" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/row_chat_left.xml" value="0.25" />
-        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/row_chat_right.xml" value="0.4" />
+        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/row_chat_right.xml" value="0.264" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/row_chatlist.xml" value="0.536" />
-        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/row_comments.xml" value="0.4" />
+        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/row_comments.xml" value="0.2" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/row_notificatin.xml" value="0.2" />
-        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/row_posts.xml" value="0.5153473344103393" />
+        <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/row_posts.xml" value="0.264" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/row_story.xml" value="0.8" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/layout/row_users.xml" value="0.536" />
         <entry key="..\:/APP/Brijesh2/app/src/main/res/menu/edit_profile_menu.xml" value="0.25" />

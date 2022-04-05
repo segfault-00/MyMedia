@@ -21,14 +21,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
       >
-            <!--
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/profilec"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/rose"
-            app:civ_border_color="@null" />
--->
 
 
             <TextView
@@ -64,7 +56,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="02/01/1990 06:19PM"
-                android:textColor="@color/colorBlack"
                 android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

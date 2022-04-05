@@ -138,7 +138,6 @@
         android:layout_height="wrap_content"
         android:text="Edit Profile Data"
         android:textAlignment="center"
-        android:textColor="@android:color/black"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

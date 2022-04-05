@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "508685109117",
-    "project_id": "brijesh-ab3c9",
-    "storage_bucket": "brijesh-ab3c9.appspot.com"
+    "project_number": "549568199787",
+    "firebase_url": "https://brijesh-4c7d7-default-rtdb.firebaseio.com",
+    "project_id": "brijesh-4c7d7",
+    "storage_bucket": "brijesh-4c7d7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:508685109117:android:be8ec87694a3684210ee14",
+        "mobilesdk_app_id": "1:549568199787:android:243cad7f11cbc0ab12852e",
         "android_client_info": {
           "package_name": "com.example.brijesh"
         }
       },
       "oauth_client": [
         {
-          "client_id": "508685109117-9v6fertvjjvklkgg5hkvsm2tpnfmdlon.apps.googleusercontent.com",
+          "client_id": "549568199787-fe3g33vbvcdmef0ujvqefpe3sr6f12dh.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC5W9N8fUpqEvV5ctCDsJEDYDK74U1gbh4"
+          "current_key": "AIzaSyDR7M8tPnIjvuBeLVZsryhTEFnnjNumKFg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "508685109117-9v6fertvjjvklkgg5hkvsm2tpnfmdlon.apps.googleusercontent.com",
+              "client_id": "549568199787-fe3g33vbvcdmef0ujvqefpe3sr6f12dh.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

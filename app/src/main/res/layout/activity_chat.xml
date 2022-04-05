@@ -2,18 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:diagonal="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".ChatActivity">
 
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="?android:attr/actionBarSize"
-        android:background="@color/purple_500"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        android:layout_height="?android:attr/actionBarSize">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,8 +20,8 @@
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/profiletv"
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/profile_image"
                 app:civ_circle_background_color="@color/colorPrimaryDark" />
@@ -43,7 +41,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="HisName"
-                    android:textColor="@color/colorWhite"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -52,7 +49,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Online"
-                    android:textColor="@color/colorWhite"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -80,7 +76,6 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
-        android:background="@color/colorWhite"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -106,7 +101,6 @@
             android:id="@+id/sendmsg"
             android:layout_width="40dp"
             android:layout_height="48dp"
-            android:background="@null"
             android:src="@drawable/send_message"
             tools:ignore="SpeakableTextPresentCheck" />
 

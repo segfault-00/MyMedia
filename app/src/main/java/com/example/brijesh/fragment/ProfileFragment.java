@@ -23,6 +23,7 @@ import com.bumptech.glide.Glide;
 import com.example.brijesh.EditProfilePage;
 import com.example.brijesh.R;
 import com.example.brijesh.SplashScreen;
+import com.example.brijesh.Zoomimg;
 import com.example.brijesh.adapter.ViewPagerAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
@@ -54,6 +55,7 @@ public class ProfileFragment extends Fragment {
     RecyclerView postrecycle;
     FloatingActionButton fab;
     ProgressDialog pd;
+    String image;
 
 
 
@@ -106,7 +108,7 @@ public class ProfileFragment extends Fragment {
                     // Retrieving Data from firebase
                     String name = "" + dataSnapshot1.child("name").getValue();
                     String emaill = "" + dataSnapshot1.child("bio").getValue();
-                    String image = "" + dataSnapshot1.child("image").getValue();
+                    image = "" + dataSnapshot1.child("image").getValue();
                     String imageBack = "" + dataSnapshot1.child("imageCover").getValue();
 
                     // setting data to our text view
@@ -130,7 +132,16 @@ public class ProfileFragment extends Fragment {
 
             }
         });
-
+        //******************************
+        avatartv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), Zoomimg.class);
+                intent.putExtra("img", image);
+                getContext().startActivity(intent);
+            }
+        });
+        //*****************************
 
 
         // On click we will open EditProfileActiity

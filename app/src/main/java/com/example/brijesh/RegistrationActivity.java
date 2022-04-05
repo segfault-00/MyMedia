@@ -11,7 +11,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -39,10 +38,10 @@ public class RegistrationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Create Account");
-        actionBar.setDisplayShowHomeEnabled(true);
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        //ActionBar actionBar = getSupportActionBar();
+        //actionBar.setTitle("Create Account");
+        //actionBar.setDisplayShowHomeEnabled(true);
+        //actionBar.setDisplayHomeAsUpEnabled(true);
         proImage = "https://firebasestorage.googleapis.com/v0/b/brijesh-ab3c9.appspot.com/o/Users_Profile_Cover_image%2Fprofile_image.png?alt=media&token=d4678449-c044-4055-9f91-7bcfd2af0c29";
         proImageBack = "https://firebasestorage.googleapis.com/v0/b/brijesh-ab3c9.appspot.com/o/Users_Profile_Cover_image_back%2Fdaisy.png?alt=media&token=f7d20fbb-ec66-44ba-b679-254cdcbe802f";
         email = findViewById(R.id.register_email);

@@ -5,6 +5,7 @@ import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,6 +20,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.brijesh.R;
+import com.example.brijesh.Zoomimg;
 import com.example.brijesh.model.ModelChat;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -111,28 +113,16 @@ public class AdpaterChat extends RecyclerView.Adapter<AdpaterChat.Myholder>{
                 return false;
             }
         });
-        /*
-        holder.msglayput.setOnClickListener(new View.OnClickListener() {
+        //******************************
+        holder.mimage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(context);
-                builder.setTitle("Delete Message");
-                builder.setMessage("Are You Sure To Delete This Message");
-                builder.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        deleteMsg(position);
-                    }
-                });
-                builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.dismiss();
-                    }
-                });
-                builder.create().show();
+                Intent intent = new Intent(context, Zoomimg.class);
+                intent.putExtra("img", message);
+                context.startActivity(intent);
             }
-        });*/
+        });
+        //*****************************
     }
 
     private void deleteMsg(int position) {
