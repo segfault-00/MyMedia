@@ -20,6 +20,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -30,7 +31,8 @@ import java.util.HashMap;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private EditText email, password, name;
+    private EditText   name;
+    TextInputLayout email,password;
     private Button mlogin;
     private TextView newdnewaccount, reocverpass;
     FirebaseUser currentUser;
@@ -64,8 +66,8 @@ public class LoginActivity extends AppCompatActivity {
         mlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String emaill = email.getText().toString().trim();
-                String pass = password.getText().toString().trim();
+                String emaill = email.getEditText().getText().toString().trim();
+                String pass = password.getEditText().getText().toString().trim();
 
                 // if format of email doesn't matches return null
                 if (!Patterns.EMAIL_ADDRESS.matcher(emaill).matches()) {

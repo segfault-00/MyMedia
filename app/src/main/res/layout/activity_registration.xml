@@ -18,7 +18,7 @@
         android:textSize="28sp"
         android:textStyle="bold|italic" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/register_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,16 +27,22 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="130dp"
         android:layout_marginRight="30dp"
-        android:background="@drawable/edit"
-        android:drawableStart="@drawable/name"
-        android:hint="Your Name..."
+        android:background="@drawable/inputtext_bg"
         android:inputType="text"
-        android:backgroundTint="@color/likebg"
         android:minHeight="48dp"
-        android:padding="8dp" />
+        android:padding="8dp" >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00686565"
+            android:hint="Your Name..."
+            android:inputType="textEmailAddress"
+            android:paddingBottom="5dp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
 
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/register_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,15 +51,21 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="30dp"
-        android:background="@drawable/edit"
-        android:backgroundTint="@color/likebg"
-        android:drawableStart="@drawable/ic_email"
-        android:hint="Email..."
+        android:background="@drawable/inputtext_bg"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
-        android:padding="8dp" />
+        android:padding="8dp" >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00686565"
+            android:hint="Email..."
+            android:inputType="textEmailAddress"
+            android:paddingBottom="5dp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/register_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -62,14 +74,19 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="30dp"
-        android:background="@drawable/edit"
-        android:drawableStart="@drawable/password"
-        android:hint="Password..."
+        android:background="@drawable/inputtext_bg"
         android:inputType="textPassword"
-        android:backgroundTint="@color/likebg"
         android:minHeight="48dp"
-        android:padding="8dp" />
-
+        android:padding="8dp" >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00686565"
+            android:hint="Password..."
+            android:inputType="textEmailAddress"
+            android:paddingBottom="5dp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
     <Button
         android:id="@+id/register_button"
         android:layout_width="match_parent"
