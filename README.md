@@ -11,17 +11,19 @@
 7. IMPORTANT FOR NOTIFICATION:- Copy Server key from Firebase/Project Setting/cloudmessaging/ and paste it in APIService.java class
 
 ## Connect with me:
-[<img align="left" alt="androrealm | YouTube" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />](https://rb.gy/r4yzzi)
-[<img align="left" alt="dshakir52 | Instagram" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://www.instagram.com/dshakir52/).
+
 
 ## Features
 1. Login, Signup,Logout,Forgot password (with email verification)
 2. Quick Login like in Facebook and Instagram (this means app remembers that you had logged in).
 3. Follow, Unfollow, Profile views.
 4. Post photo posts from camera or gallery
+
    * Like posts
-      * View all likes on a post
-   * Comment on posts
+      * View all likes on a post![real time data baser]
+
+   * Comment on posts![storade]
+
         * View all comments on a post
 5. Edit your profile (username, Bio, social links,Name).
 6. Conversation with your freinds.
@@ -43,7 +45,7 @@
   <img src="https://user-images.githubusercontent.com/102716009/163702366-4d6a4cd6-876c-4b8f-bf3e-b323233d18ed.jpeg" alt="feed example" width = "220"> |
 
 #### Profile | Edit Profile | Account Setting
-| ![profile](profile.gif)|<img src="https://user-images.githubusercontent.com/102716009/163702443-07c72620-33de-48d8-8bf7-bfb4ebb4a8ca.jpeg" alt="feed example" width = "220">|  <img src="https://user-images.githubusercontent.com/60619133/95440441-937a7880-0976-11eb-8a1f-cb445364fd75.png" alt="feed example" width = "220">
+| ![profile](profile.gif)|<img src="https://user-images.githubusercontent.com/102716009/163702443-07c72620-33de-48d8-8bf7-bfb4ebb4a8ca.jpeg" alt="feed example" width = "220">|  <img src="" alt="feed example" width = "220">
 |<img src="https://user-images.githubusercontent.com/102716009/163702477-a7220ed9-9726-45b4-889a-f25e1a350fbe.jpeg" alt="feed example" width = "220">|
 
 #### Search User | User Profile | User Post
@@ -55,16 +57,16 @@
 <img src="https://user-images.githubusercontent.com/102716009/163702782-e57845e9-2897-4e46-b7fa-23351edb1b59.jpeg" alt="feed example" width = "220">|
 
 #### Comment | Post Photo | Notification Panel
-|![Comment](comment.gif) |<img src="https://user-images.githubusercontent.com/60619133/95440445-94aba580-0976-11eb-9bab-c4fb3b66c915.jpg" alt="feed example" width = "220">|<img src="https://user-images.githubusercontent.com/60619133/95440403-8b223d80-0976-11eb-86ee-5b395df5009e.jpg" alt="feed example" width = "220">
+|![Comment](comment.gif) |<img src="https://user-images.githubusercontent.com/102716009/165358106-5798cf06-135b-4efc-a06f-5832f2d80145.jpeg" alt="feed example" width = "220">|<img src="https://user-images.githubusercontent.com/102716009/165358681-1ca76e57-5f4d-4de5-a6c9-83e0ca0b7684.jpeg" alt="feed example" width = "220">
 
 #### Conversation | Push Notification
-|<img src="https://user-images.githubusercontent.com/60619133/95440411-8d849780-0976-11eb-8ca7-b82a6a0632e3.jpg" alt="feed example" width = "220">|<img src="https://user-images.githubusercontent.com/60619133/95440431-91181e80-0976-11eb-90c1-c3e157d294c0.jpg" alt="feed example" width = "220">|
+|<img src="https://user-images.githubusercontent.com/102716009/165359528-bd617725-7983-4c42-8820-fe5a0bc3e230.jpeg" alt="feed example" width = "220">|<img src="" alt="feed example" width = "220">|
 
 #### Firebase Database
-<img src="https://user-images.githubusercontent.com/60619133/95457661-d5171d80-098e-11eb-847c-ac7c99e96fc1.png" alt="feed example" width = "220">
+<img src="https://user-images.githubusercontent.com/102716009/165360099-514bf765-54f0-4df9-8080-bd4f53b93d45.png" alt="feed example" width = "220">
 
 #### Firebase Storage
-<img src="https://user-images.githubusercontent.com/60619133/95457664-d6484a80-098e-11eb-9f70-2e5f07792320.png" alt="feed example" width = "1000">
+<img src="https://user-images.githubusercontent.com/102716009/165360159-38c70c9f-75e2-4ac4-8735-d3e97b8f7faf.png" alt="feed example" width = "1000">
 
 ## Technology Used
 * Android Studio
