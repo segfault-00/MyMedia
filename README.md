@@ -17,10 +17,11 @@ To install the APK, [click here](https://drive.google.com/file/d/1EPaj-GkfJwdK80
 ## Screenshots
 
 ### Registration & Login
+
 | Registration | Login |
 |--------------|-------|
-| ![Registration](registration.gif) | <img src="https://user-images.githubusercontent.com/102716009/163702361-3f00e3bf-84f2-4b21-bf30-5bcf256772b3.jpeg" alt="Login" width="220"> |
-| ![Login](https://user-images.githubusercontent.com/102716009/163702366-4d6a4cd6-876c-4b8f-bf3e-b323233d18ed.jpeg) |
+| ![Registration](registration.gif) | <img src="https://user-images.githubusercontent.com/102716009/163702366-4d6a4cd6-876c-4b8f-bf3e-b323233d18ed.jpeg" alt="Login" width="220"> |
+| <img src="https://user-images.githubusercontent.com/102716009/163702361-3f00e3bf-84f2-4b21-bf30-5bcf256772b3.jpeg" alt="Registration" width="220"> |
 
 ### Profile, Edit Profile & Account Setting
 | Profile | Edit Profile | Account Setting |
@@ -59,8 +60,6 @@ To install the APK, [click here](https://drive.google.com/file/d/1EPaj-GkfJwdK80
 - **Real-Time Updates**: Ensured real-time updates and notifications to enhance user engagement.
 - **Firebase Integration**: Leveraged Firebase for database management and cloud storage.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact
 For any inquiries or feedback, please reach out at [brijesh.20223@gmail.com](mailto:brijesh.20223@gmail.com).
